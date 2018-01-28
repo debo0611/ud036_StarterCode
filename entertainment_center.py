@@ -19,7 +19,7 @@ MOVIE_TRAILOR_LIST = [
      "https://www.youtube.com/watch?v=q_V45YQ-EaA"),
     ("Harry Potter and the Prisoner of Azkaban",
      "http://www.gstatic.com/tv/thumb/movieposters/34483/p34483_p_v8_ap.jpg",
-     "https://www.youtube.com/watch?v=lAxgztbYDbs"),
+     "https://www.youtube.com/watch?v=R69laoH02xg"),
     ("Harry Potter and the Goblet fo Fire",
      "https://imgix.ranker.com/user_node_img/57/1133862/original/"
      "harry-potter-and-the-goblet-of-fire-films-photo-u6?w=650&q=50&fm=jpg&fit=fill&bg=fff",
