@@ -19,7 +19,7 @@ MOVIE_TRAILOR_LIST = [
      "https://www.youtube.com/watch?v=q_V45YQ-EaA"),
     ("Harry Potter and the Prisoner of Azkaban",
      "http://www.gstatic.com/tv/thumb/movieposters/34483/p34483_p_v8_ap.jpg",
-     "https://www.youtube.com/watch?v=1ZdlAg3j8nI"),
+     "https://www.youtube.com/watch?v=lAxgztbYDbs"),
     ("Harry Potter and the Goblet fo Fire",
      "https://imgix.ranker.com/user_node_img/57/1133862/original/"
      "harry-potter-and-the-goblet-of-fire-films-photo-u6?w=650&q=50&fm=jpg&fit=fill&bg=fff",
@@ -30,7 +30,7 @@ MOVIE_TRAILOR_LIST = [
      "https://www.youtube.com/watch?v=y6ZW7KXaXYk"),
     ("Harry Potter and the Half Blood Prince",
      "http://www.gstatic.com/tv/thumb/movieposters/176377/p176377_p_v8_ak.jpg",
-     "https://www.youtube.com/watch?v=sg81Lts5kYY"),
+     "https://www.youtube.com/watch?v=JYLdTuL9Wjw"),
     ("Harry Potter and the Deathly Hallows – Part 1",
      "http://t3.gstatic.com/images?q=tbn:ANd9GcTobkzVSJU5oZ9Pv_6bM0_o4RF_zFA9jyNwdHATG90vKxyhOk5x",
      "https://www.youtube.com/watch?v=Su1LOpjvdZ4"),
