@@ -47,10 +47,18 @@ MOVIE_TRAILOR_LIST = [
      "https://www.youtube.com/watch?v=Iv_Aym8gW2Q")
 ]
 
+# Initialize movie list to populate it with Movie objects
 MOVIE_LIST = []
+
+# iterate over the MOVIE_TRAILOR_LIST, create a Movie
+# object using each element of the MOVIE_TRAILOR_LIST and
+# append the object to the MOVIE_LIST. So, the MOVIE_LIST
+# comprises a list of Movie objects.
+# Each Movie object is formed by passing the
+# arguments of the tuple (which is an element in the 
+# MOVIE_TRAILOR_LIST list) to the Movie class.
 for trailor in MOVIE_TRAILOR_LIST:
     MOVIE_LIST.append(media.Movie(*trailor))
-    # print(movie_list)
 
 if __name__ == "__main__":
     fresh_tomatoes.open_movies_page(MOVIE_LIST)
