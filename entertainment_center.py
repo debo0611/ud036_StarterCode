@@ -1,5 +1,6 @@
-"""
-This module when executed as script opens teh web page with
+"""Module to add movie trailers and open web page.
+
+This module when executed as script opens the web page with
 movie trailers.
 To add a new movie trailer to the web page, append the appropriate
 trailor to the movie_trailer_list and execute the script.
@@ -55,7 +56,7 @@ MOVIE_LIST = []
 # append the object to the MOVIE_LIST. So, the MOVIE_LIST
 # comprises a list of Movie objects.
 # Each Movie object is formed by passing the
-# arguments of the tuple (which is an element in the 
+# arguments of the tuple (which is an element in the
 # MOVIE_TRAILOR_LIST list) to the Movie class.
 for trailer in MOVIE_TRAILOR_LIST:
     MOVIE_LIST.append(media.Movie(*trailer))

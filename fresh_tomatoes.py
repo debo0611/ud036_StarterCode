@@ -1,6 +1,4 @@
-"""
-Module containing the main helper functions to create trailer website.
-"""
+"""Module containing the main helper functions to create trailer website."""
 
 import webbrowser
 import os
@@ -8,7 +6,7 @@ import re
 
 
 def read_template(file):
-    """read a template file and return the content as string"""
+    """read a template file and return the content as string."""
     with open("templates/{}".format(file)) as outfile:
         return outfile.read()
 
@@ -19,7 +17,8 @@ MOVIE_TILE_CONTENT = read_template("tile_content.html")
 
 
 def create_movie_tiles_content(movies):
-    """
+    """create movie tiles.
+
     create movie tiles content section by concatenating
     individual movie tiles
     """
@@ -45,7 +44,7 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
-    """construct and open the movies html page on a browser"""
+    """construct and open the movies html page on a browser."""
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
