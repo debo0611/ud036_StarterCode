@@ -57,8 +57,8 @@ MOVIE_LIST = []
 # Each Movie object is formed by passing the
 # arguments of the tuple (which is an element in the 
 # MOVIE_TRAILOR_LIST list) to the Movie class.
-for trailor in MOVIE_TRAILOR_LIST:
-    MOVIE_LIST.append(media.Movie(*trailor))
+for trailer in MOVIE_TRAILOR_LIST:
+    MOVIE_LIST.append(media.Movie(*trailer))
 
 if __name__ == "__main__":
     fresh_tomatoes.open_movies_page(MOVIE_LIST)
